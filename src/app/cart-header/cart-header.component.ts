@@ -7,10 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CartHeaderComponent implements OnInit {
   title = "Shopping Cart"
-  numberItem = 3
+  numberItem:number = 5
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit() {
   }
 
 }
