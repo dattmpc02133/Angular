@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'AppAngular';
+  title = 'Shopping Cart1';
   product : Product = {
     name:'Hat',
     quantity:200,
