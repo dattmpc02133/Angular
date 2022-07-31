@@ -1,13 +1,13 @@
 <main class="container">
   <header class="container">
-  <app-cart-header></app-cart-header>
+    <app-cart-header [numberItem]="numberItem"></app-cart-header>
   </header>
   <section class="container">
-    <app-products-list></app-products-list>
+    <app-products-list [products]="products" (onRemoveProduct) = "removeProduct($event);"></app-products-list>
   </section>
 
   <section class="container">
     <app-promo-code></app-promo-code>
-    <app-cart-summary></app-cart-summary>
+    <app-cart-summary [subTotal]="subTotal"></app-cart-summary>
   </section>
 </main>
